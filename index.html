@@ -1,41 +1,82 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet+Guides&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Lesson</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="container header-container">
-        <nav class="navbar">
-          <a href="" class="logo-link">Web<span>Studio</span></a>
-          <ul class="nav-list">
-            <li class="nav-item"><a href="#" class="nav-link">Студія</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Портфоліо</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Контакти</a></li>
-          </ul>
-        </nav>
-        <address>
-          <a href="mailto:info@devstudio.com" class="address-link"
-            >info@devstudio.com</a
-          ><a href="tell:+380961111111" class="address-link"
-            >+38 096 111 11 11</a
-          >
-        </address>
-  </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoGo Website</title>
+    <!-- Шрифты и иконки -->
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Секция Услуги -->
+    <section class="container">
+        <div class="section-header">
+            <h3 class="section-suptitle">We work with</h3>
+            <h2 class="section-title">Amazing Services</h2>
+        </div>
+
+        <div class="services">
+            <div class="service-item">
+                <i class="fas fa-camera service-icon"></i>
+                <div class="service-text">
+                    <div class="service-title">Photography</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-desktop service-icon"></i>
+                <div class="service-text">
+                    <div class="service-title">Web Design</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-bullhorn service-icon"></i>
+                <div class="service-text">
+                    <div class="service-title">Creativity</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <!-- Секция Команда -->
+    <section class="container">
+        <div class="section-header">
+            <h3 class="section-suptitle">Who we are</h3>
+            <h2 class="section-title">Meet our team</h2>
+            <p class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+
+        <div class="team">
+            <div class="team-item">
+                <div class="team-photo">
+                    <img src="images/img1.jpg" alt="Matthew Dix">
+                </div>
+                <div class="team-name">Matthew Dix</div>
+                <div class="team-prof">Graphic Design</div>
+            </div>
+            <div class="team-item">
+                <div class="team-photo">
+                    <img src="images/img2.jpg" alt="Christopher Campbell">
+                </div>
+                <div class="team-name">Christopher Campbell</div>
+                <div class="team-prof">Branding/UX Design</div>
+            </div>
+            <div class="team-item">
+                <div class="team-photo">
+                    <img src="images/img3.jpg" alt="Michael Fertig">
+                </div>
+                <div class="team-name">Michael Fertig</div>
+                <div class="team-prof">Developer</div>
+            </div>
+        </div>
+    </section>
+
+</body>
 </html>
